@@ -1,7 +1,7 @@
 ﻿//
 //    https://forum.unity.com/threads/we-need-auto-save-feature.483853/
 //	
-	using UnityEditor;
+using UnityEditor;
     using UnityEditor.SceneManagement;
     using UnityEngine;
      
