@@ -1,0 +1,25 @@
+
+using UnityEngine;
+
+public class Player : MonoBehaviour
+{
+   public float health = 100f;
+   public float shield = 100f;
+   public void  TakeDamage (float amount)
+   
+   {
+        shield -= amount;
+       if (shield <= 0f)
+       
+       health -= amount;
+       if (health <= 0f)
+       {
+           die();
+    
+       }
+   }
+   void die ()
+   {
+       Destroy(gameObject);
+   }
+}
